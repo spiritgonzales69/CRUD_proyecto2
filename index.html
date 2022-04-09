@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Proyecto GERSSON</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+ <header>
+    <nav class="navbar">
+      <a href="#"> Lugar </a>
+      <a href="#"> Precio</a>
+      <a href="#">Contacto</a>
+    </nav>
+ </header>
+
+    <section class="hero-image">                  
+    </section>
+
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productCode">Codigo del Producto</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">Nombre del Producto</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Cantidad</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">Precio</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Codigo del Producto</th>
+                                <th>Nombre del Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+
+
+    
+    <footer id="footer">
+        <div class="footer-content">
+            <img src="https://www.riotgames.com/darkroom/1440/b540da2b9afe5ec83e842a2d84f6dbb1:e95535ecd35e48592908762c9353926a/arcane-final-poster-16x9-no-text-no-border.jpg" alt="" class="img-footer"/>
+            <ul class="footer-menu">
+                <p>COMPAÑIA</p>
+                <li class="footer-menu-item"> Acerca de </li>
+                <li class="footer-menu-item">Empleos </li>
+            </ul>
+
+            <ul class="footer-menu">
+                <p>COLABORADORES</p>
+                <li class="footer-menu-item">Publicidad </li>
+                <li class="footer-menu-item">Provedores </li>
+            </ul>
+
+            <ul class="footer-menu">
+                <p>ENLACES UTILES</p>
+                <li class="footer-menu-item">Ayuda </li>
+                <li class="footer-menu-item">Reproductor Web </li>
+            </ul>
+
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+        <div class="footer-info">
+            <ul class="footer-info-items">
+                <li class="footer-info-item">Legal</li>
+                <li class="footer-info-item">Centro de privacidad</li>
+                <li class="footer-info-item">Politica de privacidad</li>
+                <li class="footer-info-item">Cookies</li>
+                <li class="footer-info-item">Sobre los anuncios</li>
+            </ul>
+
+            <div class="rights">
+                <div class="country">
+                    <p>Mexico</p>
+                    <img src="https://www.tamaulipas.gob.mx/fomentocivico/wp-content/uploads/sites/20/2017/04/bandera-mexico-portavox-e1492461746506.jpg" alt="" class="Mexico-flag"/>
+                </div>
+                <p>&copy;2022 GERSSON S.A. DE C.V.</p>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
